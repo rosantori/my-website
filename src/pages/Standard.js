@@ -13,7 +13,7 @@ function Header()  {
             <Link className="experiencias" to="/my-website/experiences">
                 <button>EXPERIÊNCIAS</button>
             </Link>
-            <Link className="contact" to="/contact">
+            <Link className="contact" to="/my-website/contact">
                 <button>CONTATO</button>
             </Link>
 
