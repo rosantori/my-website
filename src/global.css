@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap'); /*Padrão*/ 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*Meu nome na Home (h4)*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;470;700;800&display=swap'); /*buttons*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap'); /*itens de experiencia*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); /*contato*/
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap'); /*home -> sobre mim*/
+
+* {
+    font: 400 20px Dosis, sans-serif;
+    color:black;
+}
+
+body {
+    background-image: url('./assets/bg5.jpg');
+    background-attachment: fixed;
+    background-repeat: round;
+    background-size: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+.menu button {
+    color: white;
+    font:470 1.5vw Playfair Display, sans-serif;
+    height: 9vh;
+    width:12vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background: fixed;
+}
+.menu button:hover{
+    color: black;
+    /*font: 29px Bebas Neue, sans-serif;*/
+    font: 700 1.5vw Playfair Display, bold;
+    filter: contrast(100%);
+
+    text-shadow: 0.2vh 0.3vh 4vw white;
+}
+
+button {
+    transition: filter 0.2s;
+    cursor: pointer;
+    border:none;
+    outline:none;
+}
+
+button:hover {
+    filter: brightness(80%);
+    color: black;
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 0.4;
+    transform: translateY(0.3vh);
+}
+
+.body {
+    background-color: rgba(255,255,255, 0.2);
+    background-image: none;
+    margin-bottom: 4vh;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 74vh;
+    width : 74vw;
+    padding-top: 3vh;
+    padding-right: 3vw;
+    padding-left:3vw;
+    overflow: auto;/*
+    border-radius: 1vw;*/
+    border: 0.3vh solid rgba(255,255,255, 0.1);
+}
+
+.credits {
+    font-size: 1vw;
+    float:right;
+}
+.credits p {
+    color:rgba(255,255,255, 0.6);
+    margin: 1vh;
+    padding: 0.4vw;
+    border-radius: 1vw;
+    font-size: 1vw;
+}
+.credits a {
+    font:inherit;
+    color:inherit
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
