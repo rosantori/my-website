@@ -13,8 +13,9 @@
 body {
     background-image: url('./assets/bg5.jpg');
     background-attachment: fixed;
-    background-repeat: round;
-    background-size: 100%;
+    background-repeat: no-repeat scroll;
+    background-size: cover;
+    background-position: center center;
 }
 
 .menu {

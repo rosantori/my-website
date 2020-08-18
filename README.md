@@ -1,3 +1,11 @@
+# README
+my-website is a project created to learn more about reactjs,
+it is about me and my experiences professionally speaking and 
+it's still in development.
+
+
+# ReactJs
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

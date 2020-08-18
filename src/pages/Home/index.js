@@ -22,7 +22,7 @@ export default function Home () {
                 </div>
                 <div className="redes">
                     <p> Site feito por mim, utilizando ReactJS <br/>
-                    Conheça outros trabalhos <a href="http://github.com/rosantori"> aqui</a>.</p>
+                    Conheça<a href="http://github.com/rosantori/my-website"> aqui</a>.</p>
                 </div>
             </section>
         </div>

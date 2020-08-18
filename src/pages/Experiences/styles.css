@@ -18,13 +18,14 @@
   width: 300px;
   height: 140px;
   position: relative;
+  max-width: 23vw;
+  max-height: 21vh;
 }
 
 .experiences-container .body .locais .item button img {
   padding-top: 10px;
   height: 120px;
-  width: auto;
-  max-width: 300px;
+  max-height: 18vh;
 }
 
 .experiences-container .body .locais .item button .overlay {

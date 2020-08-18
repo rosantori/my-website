@@ -37,10 +37,10 @@
 }
 
 .home-container .body .upper .citacao h1 {
-    font: 40px Cedarville Cursive;
+    font: 3vw Cedarville Cursive;
     text-align: center;
     padding-top: 10vh;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 1vw white;
 }
 
 .home-container .body .upper .citacao h4 {
@@ -52,15 +52,13 @@
 
 .home-container .body .redes {
     text-align: center;
-    font: 200 10px Roboto, sans-serif;
+    font: 200 0.8vw Roboto, sans-serif;
 }
 .home-container .body .redes p {
-    margin-top: -3px;
     font: inherit;
 } 
 .home-container .body .redes p a {
     font:inherit;
-    color: inherit;
 }
 /*
 .home-container .body {

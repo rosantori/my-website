@@ -160,7 +160,7 @@ export default function Experiences() {
 
                 <div className="curriculo">
                     Faça o download do meu currículo <br/>
-                    <a href="../../assets/curriculo.pdf" download>
+                    <a href="https://drive.google.com/file/d/1lY9wmxBkUBZuWpEVsc7Ze6o7Eu8jakNA/view?usp=sharing" download>
                         <img src={download} alt="Download currículo" width = "100vw" />
                     </a>
                 </div>
