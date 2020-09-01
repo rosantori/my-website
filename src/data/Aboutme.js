@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Aboutme() {
     return(
-        <h1> Meu nome é Rosana S. Ribeiro, tenho 22 anos e nasci em Brasília-DF. Sou estudante de
+        <h2> Meu nome é Rosana S. Ribeiro, tenho 22 anos e nasci em Brasília-DF. Sou estudante de
              graduação de engenharia mecatrônica na Universidade de Brasília. Decidi criar esse
              website porque achei uma boa oportunidade para falar e mostrar um pouco sobre mim e 
              principalmente porque queria aprender um pouco sobre ReactJS, HTML e CSS. <br/><br/>
@@ -33,6 +33,6 @@ export default function Aboutme() {
              a ter esperança, a querer aprender mais sobre as possíveis áreas do meu curso e principalmente
              a querer ser cada dia uma melhor profissional e uma melhor pessoa. <br/><br/>
                        
-        </h1>
+        </h2>
     );
 }

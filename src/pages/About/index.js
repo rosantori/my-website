@@ -12,7 +12,7 @@ export default function About() {
                     <section className="myself">
                         <img src={me} alt="Eu :)"  style={{maxWidth : "30%"}}/>
                         <section className="home-text">
-                            <h3>Olá, bem-vindxss! :)</h3>
+                            <h1>Olá, bem-vindxss! :)</h1>
                             <Aboutme/>
                         </section>
                     </section>

@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); /*contato*/
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap'); /*home -> sobre mim*/
 
-* {
-    font: 400 20px Dosis, sans-serif;
+* { 
+    font: 400 20px Dosis;
     color:black;
 }
 
@@ -20,9 +20,10 @@ body {
 
 .menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 18vw;
-    margin-right: 18vw;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .menu button {
@@ -36,17 +37,17 @@ body {
 }
 .menu button:hover{
     color: black;
-    /*font: 29px Bebas Neue, sans-serif;*/
     font: 700 1.5vw Playfair Display, bold;
     filter: contrast(100%);
-
     text-shadow: 0.2vh 0.3vh 4vw white;
 }
 
 button {
     transition: filter 0.2s;
     cursor: pointer;
-    border:none;
+    border: none;
+    /*
+    border:1px solid brown;*/
     outline:none;
 }
 
@@ -73,8 +74,7 @@ button:active {
     padding-top: 3vh;
     padding-right: 3vw;
     padding-left:3vw;
-    overflow: auto;/*
-    border-radius: 1vw;*/
+    overflow: auto;
     border: 0.3vh solid rgba(255,255,255, 0.1);
 }
 
@@ -89,11 +89,42 @@ button:active {
     border-radius: 1vw;
     font-size: 1vw;
 }
-.credits a {
-    font:inherit;
-    color:inherit
+
+
+a {
+    color: inherit;
+    font: inherit;
 }
 
 ::-webkit-scrollbar {
     display: none;
+  }
+
+  @media only screen and (max-width:600px) {
+
+    .menu {
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        height: 5vh;
+    }
+    .menu button {
+        padding:0;
+        height: 4vh;
+        font-size: 2.2vw;
+        width: 20vw;
+        margin: 0;
+    }
+    .menu button:hover {
+        font-size: 2.2vw;
+    }
+    .body {
+        width: 80vw;
+    }
+    .credits {
+        font-size: 3vw;
+    }
+    .credits p {
+        font-size: inherit;
+    }
   }

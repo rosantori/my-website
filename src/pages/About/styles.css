@@ -1,8 +1,6 @@
 .about-container .myself {
-    
-    align-content : center;
     display : block;
-    border-radius: 30px;
+    border-radius: 2vw;
     margin-top: 1vh;
     margin-bottom: 2vh;
     margin-left : 6vw;
@@ -12,9 +10,27 @@
     background: rgba(255,255,255, 0.2);
     border: 0.3vh solid rgba(255,255,255,0.1);
 }
-
 .about-container .myself img {
     float: left;
     border-radius: 50%;
     margin-right: 1vw;
+}
+.about-container .body .myself .home-text h1 {
+    font-size: 25px;
+}
+.about-container .body .myself .home-text h2 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    .about-container .body .myself {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .about-container .body .myself .home-text h1 {
+        font-size: 20px;
+    }
+    .about-container .body .myself .home-text h2{
+        font-size: 15px;
+    }
 }

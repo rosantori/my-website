@@ -1,10 +1,7 @@
 .contact-container .body {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-
-    
+    align-items:center;
 }
 .contact-container .body .socials {
     background-color: rgba(255,255,255, 0.3);
@@ -14,36 +11,30 @@
     height: 30vh;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
     margin-bottom: 5.5vh;
 }
 .contact-container .body .socials a {
     margin: 1.5vw;
 }
-
 .contact-container .body .socials a img {
     opacity: 0.9;
+    max-width: 6vw;
 }
-
 .contact-container .body .socials a img:hover {
     opacity: 0.7;
 }
 .contact-container .body .socials a img:active {
     opacity: 0.5;
 }
-/*.contact-container .body .socials {
-    top:50%;
-    position: absolute;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    
+
+@media only screen and (max-width:600px) {
+    .contact-container .body .socials {
+        width: 50vw;
+        height: 60vh;
+        flex-direction: column;
+    }
+    .contact-container .body .socials a img {
+    max-width: none;
+    }
 }
-.contact-container .body section{
-    font: 400 20px Roboto, sans-serif;
-    margin-top: 10px;
-    align-items: center;
-    text-align: center;
-    display: block;
-}*/

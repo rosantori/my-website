@@ -20,7 +20,6 @@ export default function Experiences() {
     function universityOnMouseLeave() {
         document.getElementById("university-overlay").style.opacity = "0";
     }
-
     
     function universitybtnOnClick() {
         document.getElementById("university-modal").style.display = "block";
@@ -70,11 +69,10 @@ export default function Experiences() {
         document.getElementById("emsw-overlay").style.opacity = "0";
     }
 
-    
     function emswbtnOnClick() {
         document.getElementById("emsw-modal").style.display = "block";
     }
-    
+
     function emswspanOnClick() {
         document.getElementById("emsw-modal").style.display = "none";
     }
@@ -146,7 +144,7 @@ export default function Experiences() {
                             <div className="overlay" id = "emsw-overlay">
                                 <h4>Ensina Mais Turma da Mônica</h4>
                                 <h1>Professora de robótica para crianças. <br/></h1>
-                                <h4>fevereiro 2019 - atual</h4>
+                                <h4>fevereiro 2019 - março 2020</h4>
                             </div>
                         </button>
                         <div id ="emsw-modal" className = "modal">
@@ -159,10 +157,12 @@ export default function Experiences() {
                 </div>
 
                 <div className="curriculo">
-                    Faça o download do meu currículo <br/>
-                    <a href="https://drive.google.com/file/d/1lY9wmxBkUBZuWpEVsc7Ze6o7Eu8jakNA/view?usp=sharing" download>
-                        <img src={download} alt="Download currículo" width = "100vw" />
-                    </a>
+                    <h1>
+                        Faça o download do meu currículo <br/>
+                        <a href="https://drive.google.com/file/d/1lY9wmxBkUBZuWpEVsc7Ze6o7Eu8jakNA/view?usp=sharing">
+                            <img src={download} alt="Download currículo" width = "100vw" />
+                        </a>
+                    </h1>
                 </div>
             </section>
             <Credits/>
