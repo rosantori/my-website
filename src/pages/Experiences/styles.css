@@ -96,6 +96,16 @@
     cursor: pointer;
 }
 
+.experiences-container .body .timeline {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.experiences-container .body .timeline img {
+  max-width: 100%;
+}
+
 @media only screen and (max-width:600px) {
   .experiences-container .body .locais {
     display: flex;
@@ -109,5 +119,26 @@
   }
   .experiences-container .body .curriculo h1{
     font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .experiences-container .body .timeline {
+    min-width: 100%;
+    overflow: auto;
+    justify-content: flex-start;
+  }
+  .experiences-container .body .timeline img {
+    min-width: 650px;
+  }
+  .experiences-container .body ::-webkit-scrollbar {
+    display: block;
+    height: 5px;
+  }
+  .experiences-container .body ::-webkit-scrollbar-thumb {
+    background:rgba(255,255,255,0.4);
+  }
+  .experiences-container .body ::-webkit-scrollbar-track {
+    background: rgba(255,255,255, 0.2);
   }
 }

@@ -11,6 +11,8 @@ import Unb from "../../data/Unb";
 import Catron from "../../data/Catron";
 import Emsw from "../../data/Emsw";
 
+import tl from "../../assets/TL2020.png";
+
 export default function Experiences() {
 
     function universityOnMouseEnter() {
@@ -82,6 +84,9 @@ export default function Experiences() {
         <div className="experiences-container">
             <Header/>
             <section className="body">
+                <div className="timeline">
+                    <img src={tl} alt="Timeline" className="tl"/>
+                </div>
                 <div className="locais">
                     <div className="item">
                         <button id="university-btn" onClick = {universitybtnOnClick} onMouseEnter={universityOnMouseEnter}
