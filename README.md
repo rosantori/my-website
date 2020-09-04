@@ -21,7 +21,7 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 # Files Hierarchy
-
+```
 (build) - Created automatically during gh-pages deployment
 |   |...
 (public)
@@ -50,3 +50,4 @@ You will also see any lint errors in the console.
 |   |---routes.js
 .gitignore
 package.json
+```
