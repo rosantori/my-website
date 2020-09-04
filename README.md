@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Running the app 
 ```
-$ cd <path to>/o-mural
+$ cd <path to>/my-website
 $ npm install
 $ npm start
 
